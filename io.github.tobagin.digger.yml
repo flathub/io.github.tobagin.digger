@@ -98,7 +98,7 @@ modules:
       - '/bin/nslookup'
       - '/bin/named*'
       - '/bin/rndc*'
-      - '/bin/dnssec'
+      - '/bin/dnssec*'
       - '/sbin'
 
   # All Python wheel dependencies verified with correct SHA256 hashes for Flathub
