@@ -120,4 +120,4 @@ modules:
     sources:
       - type: git
         url: https://github.com/tobagin/digger.git
-        tag: v2.7.0
+        tag: v2.7.1
