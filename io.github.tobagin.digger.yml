@@ -45,7 +45,7 @@ modules:
         sha256: 2556b83adc0f9b3ac8024e613e17d014d04c4c49110604ce55fcb14eae32edd3
         x-checker-data:
           type: anitya
-          project-id: 5953
+          project-id: 7134
           url-template: https://lttng.org/files/urcu/userspace-rcu-$version.tar.bz2
 
   # BIND dig command; OpenSSL comes from the runtime
@@ -53,11 +53,11 @@ modules:
     buildsystem: autotools
     sources:
       - type: archive
-        url: https://downloads.isc.org/isc/bind9/9.20.29/bind-9.20.29.tar.xz
-        sha256: 587029508b3b1b43229fae416c97e5543aba45809cefaca98a5004a02a5736c1
+        url: https://downloads.isc.org/isc/bind9/9.20.31/bind-9.20.31.tar.xz
+        sha256: 9bfecd503ec79209d321053689c794da9f8dba993a24e9cd6bd7aa87cdf4122f
         x-checker-data:
           type: anitya
-          project-id: 1365
+          project-id: 383859
           url-template: https://downloads.isc.org/isc/bind9/$version/bind-$version.tar.xz
     config-opts:
       - --disable-static
@@ -109,4 +109,5 @@ modules:
     sources:
       - type: git
         url: https://github.com/tobagin/digger.git
-        tag: v2.9.1
+        tag: v2.9.3
+        commit: 866cac820ec8dac8a39d61b0c22063cc65fb3086
