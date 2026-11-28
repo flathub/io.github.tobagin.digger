@@ -53,8 +53,8 @@ modules:
     buildsystem: autotools
     sources:
       - type: archive
-        url: https://downloads.isc.org/isc/bind9/9.20.31/bind-9.20.31.tar.xz
-        sha256: 9bfecd503ec79209d321053689c794da9f8dba993a24e9cd6bd7aa87cdf4122f
+        url: https://downloads.isc.org/isc/bind9/9.21.28/bind-9.21.28.tar.xz
+        sha256: 06a4d2e41cddd0daeb123097956bba31291e75a05d0e4249cdd5bc495022e74a
         x-checker-data:
           type: anitya
           project-id: 383859
